@@ -42,7 +42,7 @@ O projeto buscou apresentar, de forma clara e educativa, como esses ataques acon
 ## 📥 1. Clone o repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone [URL_DO_REPOSITORIO](https://github.com/chryssstina/projeto-social-violencia-de-genero.git)
 ```
 
 ---
@@ -80,22 +80,6 @@ http://localhost:5173/
 ```
 
 Abra esse endereço no navegador para visualizar o projeto.
-
----
-
-# 📁 Estrutura do Projeto
-
-```bash
-src/
-│
-├── 📂 components/
-├── 📂 pages/
-├── 📂 assets/
-├── 📂 styles/
-│
-├── App.jsx
-├── main.jsx
-```
 
 ---
 
