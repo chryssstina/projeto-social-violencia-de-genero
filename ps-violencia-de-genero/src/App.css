@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --branco: #ffffff;
+    --branco-rosado: #fefbfe;
+    --branco-rosa-claro: #fdfbfe;
+    --rosa-claro: #e9e1ef;
+    --cinza-claro: #655f78;
+    --roxo-claro: #f3e4ff;
+    --roxo-medio: #8451c9;
+    --roxo-escuro: #311852;
+    --lilas-claro: #f9f2fe;
+}
+
+
+body {
+    margin: 0;
+}
+
+.container-page {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+.navigation-span-title {
+    color: var(--roxo-medio);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 1.5rem;
+    text-align: center;
+}

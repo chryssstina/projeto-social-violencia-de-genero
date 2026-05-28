@@ -1,0 +1,23 @@
+.carousel {
+    background-color: var(--branco-rosa-claro);
+}
+
+.carousel-item img {
+    max-height: 85vh;
+    object-fit: cover;
+    filter: blur(3px);
+
+}
+
+.carousel-caption h5 {
+    color: var(--branco-rosa-claro);
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: "sans-serif";
+}
+
+.carousel-caption p {
+    color: var(--branco-rosa-claro);
+    font-size: 1.25rem;
+    font-weight: normal;
+}

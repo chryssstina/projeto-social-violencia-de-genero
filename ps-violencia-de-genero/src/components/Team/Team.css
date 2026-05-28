@@ -1,0 +1,16 @@
+.team{
+    background-color: var(--lilas-claro);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.team-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem 5rem;
+    
+
+}

@@ -1,0 +1,35 @@
+.objectives-section {
+    background-color: var(--lilas-claro);
+    padding: 2rem;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.objectives-title {
+    text-align: center;
+}
+
+.accordion-button {
+    color: var(--roxo-escuro);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "sans-serif";
+    /* border-radius: 15px 15px 0 0; */
+}
+
+.accordion-item {
+    border: 1px solid var(--rosa-claro);
+    /* border-radius: 15px; */
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--branco);
+    
+}

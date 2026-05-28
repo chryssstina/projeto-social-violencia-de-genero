@@ -1,0 +1,29 @@
+.card{
+    border: 1px solid var(--rosa-claro);
+    border-radius: 15px; 
+    width: 15rem;
+    min-height: 13rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--roxo-escuro);
+    font-family: "sans-serif";
+}
+
+.bi{
+    font-size: 1.2rem;
+    background-color: var(--roxo-claro);
+    border-radius: 50%;
+    padding: 0.5rem 0.7rem;
+}
