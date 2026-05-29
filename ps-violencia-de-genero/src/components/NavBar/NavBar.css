@@ -1,47 +1,113 @@
 .navbar {
     background-color: var(--branco-rosado);
     border-bottom: 1px solid var(--lilas-claro);
+    padding: 12px 0;
+}
+
+/* BRAND */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--roxo-escuro);
+}
+
+.navbar-brand i {
+    color: var(--roxo-medio);
+    font-size: 1.2rem;
+}
+
+/* TOGGLER */
+
+.navbar-toggler {
+    border: 1px solid var(--lilas-claro);
+    padding: 6px 10px;
+    border-radius: 12px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* MENU MOBILE */
+
+.navbar-collapse {
+    padding-top: 20px;
 }
 
 .navbar-nav {
-    gap: 50px;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--roxo-escuro);
-    font-family: "sans-serif";
-    font-style: italic;
+    gap: 12px;
+    text-align: center;
 }
 
 .nav-link {
     color: var(--roxo-escuro);
-    transition: all 0.3s ease;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .nav-link:hover {
     color: var(--roxo-medio);
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
-.bi {
-    color: var(--roxo-medio);
-    margin-right: 8px;
-}
+/* BUTTON */
 
-.btn {
+.btn-download {
+    width: 100%;
+    margin-top: 20px;
+
     background-color: var(--roxo-medio);
     color: var(--branco-rosado);
+
+    border: none;
     border-radius: 30px;
-    padding: 8px 18px;
-    transition: all 0.3s ease;
+
+    padding: 10px 16px;
+
+    transition: 0.3s;
 }
 
-.btn:hover {
+.btn-download:hover {
     background-color: var(--branco-rosado);
-    border: 1px solid var(--roxo-medio);
     color: var(--roxo-medio);
-    transform: translateY(-3px);
+    border: 1px solid var(--roxo-medio);
+
+    transform: translateY(-2px);
+
     box-shadow: 0 8px 20px rgba(241, 150, 243, 0.12);
+}
+
+/* ========================= */
+/* TABLETS E DESKTOP */
+/* ========================= */
+
+@media (min-width: 992px) {
+
+    .navbar {
+        padding: 16px 0;
+    }
+
+    .navbar-brand {
+        font-size: 1.6rem;
+    }
+
+    .navbar-nav {
+        gap: 40px;
+    }
+
+    .navbar-collapse {
+        padding-top: 0;
+    }
+
+    .btn-download {
+        width: auto;
+        margin-top: 0;
+        padding: 8px 18px;
+    }
 }
