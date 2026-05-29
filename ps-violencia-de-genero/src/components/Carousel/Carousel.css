@@ -1,23 +1,113 @@
 .carousel {
     background-color: var(--branco-rosa-claro);
+    padding: 16px 0;
 }
+
+/* IMAGEM */
 
 .carousel-item img {
-    max-height: 85vh;
+    width: 100%;
+    height: 300px;
     object-fit: cover;
-    filter: blur(3px);
-
+    border-radius: 15px;
+    filter: blur(2px);
 }
+
+
+/* CAPTION */
+
+
+.carousel-caption {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+}
+
+/* TÍTULO */
 
 .carousel-caption h5 {
     color: var(--branco-rosa-claro);
-    font-size: 5.5rem;
-    font-weight: bold;
-    font-family: "sans-serif";
+    font-size: 1.5rem;
+    font-weight: 700;
 }
+
+/* DESCRIÇÃO */
 
 .carousel-caption p {
     color: var(--branco-rosa-claro);
-    font-size: 1.25rem;
-    font-weight: normal;
+
+    font-size: 0.95rem;
+    line-height: 1.5;
+
+    margin-bottom: 0;
+}
+
+
+/* INDICADORES */
+
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+
+    border-radius: 50%;
+}
+
+
+/* BOTÕES */
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* TABLETS */
+
+
+@media (min-width: 768px) {
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-caption {
+        bottom: 50px;
+        width: 75%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* DESKTOP */
+
+
+@media (min-width: 992px) {
+
+    .carousel-item img {
+        height: 85vh;
+    }
+
+    .carousel-caption {
+        bottom: 80px;
+        width: 65%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.25rem;
+    }
 }

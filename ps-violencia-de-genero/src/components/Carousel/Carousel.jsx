@@ -69,7 +69,7 @@ function Carousel() {
                                     alt={slide.titulo}
                                 />
 
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption">
                                     <h5>{slide.titulo}</h5>
                                     <p>{slide.descricao}</p>
                                 </div>
